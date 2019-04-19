@@ -6,6 +6,7 @@ import Order from './page/order/Order';
 import Login from './page/login/Login';
 import Buttons from './page/ui/buttons';
 import Inputs from './page/ui/inputs';
+import Modal from './page/ui/modal';
 import Nomatch from './page/nomatch/NoMatch';
 class IRouter extends React.Component {
     render() {
@@ -19,6 +20,7 @@ class IRouter extends React.Component {
                                 <Switch>
                                     <Route path="/admin/utils/button" component={Buttons}></Route>
                                     <Route path="/admin/utils/input" component={Inputs}></Route>
+                                    <Route path="/admin/utils/modal" component={Modal}></Route>
                                     <Route component={Nomatch}></Route>
                                 </Switch>
                             </Admin>
