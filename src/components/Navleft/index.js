@@ -40,7 +40,7 @@ export default class Navleft extends React.Component {
             <div className="nav-container">
                 <div className="logo">
                     <img src="/images/if_brother_3231124.png" alt="logo" className="logo-img" />
-                    <h1 className="nav-title">imoocmanager</h1>
+                    <h1 className="nav-title">imanager</h1>
                 </div>
                 <Menu theme="dark">
                     {this.state.MenuItems}

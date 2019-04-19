@@ -10,8 +10,8 @@ export default [
             name:"按钮",
             key:"/admin/utils/button"
         },{
-            name:"输入框",
-            key:"/admin/utils/input"
+            name:"对话框",
+            key:"/admin/utils/modal"
         },{
             name:"图表",
             key:"/admin/utils/icon"
